@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Test">
+
+        <EditTextPreference
+            android:title="                          -----FIT PREDSTAVLJA?-----"
+            android:selectable="false"
+            />
+        
+        <CheckBoxPreference
+            android:title="Fakultet Informacionih Tehnologija"
+            android:defaultValue="false"
+            android:key="odg1" />
+        <CheckBoxPreference
+            android:title="Fakultet Digitalnih Umetnosti"
+            android:defaultValue="false"
+            android:key="odg2" />
+        <CheckBoxPreference
+            android:title="Fakultet Za Menadzment"
+            android:defaultValue="false"
+            android:key="odg3" />
+
+        <EditTextPreference
+            android:title=""
+            android:selectable="false"
+            android:key="rezultat"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Univerzitet info">
+
+        <EditTextPreference
+            android:title="Naziv fakulteta"
+            android:summary="Unesite tekst"
+            />
+        <EditTextPreference
+            android:title="Adresa fakulteta"
+            android:summary="Unesite tekst"
+            />
+    </PreferenceCategory>
+</PreferenceScreen>
