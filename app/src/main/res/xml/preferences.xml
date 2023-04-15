@@ -8,7 +8,7 @@
             android:title="                          -----FIT PREDSTAVLJA?-----"
             android:selectable="false"
             />
-        
+
         <CheckBoxPreference
             android:title="Fakultet Informacionih Tehnologija"
             android:defaultValue="false"
